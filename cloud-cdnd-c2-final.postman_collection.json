@@ -6,12 +6,12 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:8082/filteredimage?image_url=https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg",
+			"name": "http://localhost:8082/filteredimage?image_url=https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/08/45438_3B5B5E1FD8856767-1.jpeg",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://{{HOST}}/filteredimage?image_url=https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg",
+					"raw": "http://{{HOST}}/filteredimage?image_url=https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/08/45438_3B5B5E1FD8856767-1.jpeg",
 					"protocol": "http",
 					"host": [
 						"{{HOST}}"
@@ -22,7 +22,7 @@
 					"query": [
 						{
 							"key": "image_url",
-							"value": "https://timedotcom.files.wordpress.com/2019/03/kitten-report.jpg"
+							"value": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/08/45438_3B5B5E1FD8856767-1.jpeg"
 						}
 					]
 				}
@@ -56,7 +56,7 @@
 		{
 			"id": "1df3d31a-de30-494b-a3d0-f1228dd8713c",
 			"key": "HOST",
-			"value": "localhost:8082",
+			"value": "image-filter-starter-code-dev-datacamp520.us-east-1.elasticbeanstalk.com",
 			"type": "string"
 		}
 	]
